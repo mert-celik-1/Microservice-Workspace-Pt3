@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-ApiGateway", "01-ApiGateway", "{CD921E3E-3307-48D0-B009-28A6EEA82DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGatewayOcelotExample", "01-ApiGateway\ApiGatewayOcelotExample\ApiGatewayOcelotExample.csproj", "{D7B21E2D-A0F5-43FA-B0E3-46502716929A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7B21E2D-A0F5-43FA-B0E3-46502716929A} = {CD921E3E-3307-48D0-B009-28A6EEA82DC8}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7B21E2D-A0F5-43FA-B0E3-46502716929A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B21E2D-A0F5-43FA-B0E3-46502716929A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B21E2D-A0F5-43FA-B0E3-46502716929A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B21E2D-A0F5-43FA-B0E3-46502716929A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
